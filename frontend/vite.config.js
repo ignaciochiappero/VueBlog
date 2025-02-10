@@ -11,5 +11,8 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '/vue-php-blog/api')
       }
     }
+  },
+  define: {
+    'process.env': process.env
   }
 })
